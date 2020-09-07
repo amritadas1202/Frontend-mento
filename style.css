@@ -1,0 +1,224 @@
+body{
+    background-color:#eeedf5;
+    font-family: 'Rubik', sans-serif;
+    width: 90%;
+    height: 90vh;
+}
+@media(max-width:1024px){
+    body{
+        background-color:#eeedf5;
+        font-family: 'Rubik', sans-serif;
+        width: 100%;
+        height: 100vh;
+    }
+}
+.background-color1{
+    width:30%;
+    height: 100vh;
+    float: left;
+    z-index: -1;
+    position: absolute;
+    border-bottom-right-radius:300px ;
+    border-bottom-left-radius:250px;
+    transform: translate(-20%,-3%);
+    background-image: -webkit-linear-gradient(60deg,  #7016b5, #d834eb );
+}
+.background-color-two{
+    width:30%;
+    height: 100vh;
+    float: right;
+    z-index: -1;
+    /* position: absolute; */
+    border-top-right-radius:300px ;
+    border-top-left-radius:250px;
+    transform: translate(45%,5%);
+    background-color: rgb(240, 218, 248);
+}
+.notch{
+    background-color: #fff;
+    width:170px;
+    height:30px;
+    border-radius: 100px;
+    display: inline-block;
+    position: absolute;
+    left:25%;
+    transform: translate(-35px,70px);
+    z-index: 1;
+}
+@media(max-width:1024px){
+    .notch{
+        background-color: #fff;
+        width:170px;
+        height:30px;
+        border-radius: 100px;
+        display: inline-block;
+        position: absolute;
+        left:25%;
+        transform: translate(45px,70px);
+        z-index: 1;
+    }
+}
+
+.pera{
+    display: inline;
+
+}
+.chat-box{
+    border:10px solid #fff;
+    border-radius: 20px;
+    width: 270px;
+    height: 555px;
+    top: 70px;
+    left: 20%;
+    position: relative;
+    background-color: #efebf0;
+}
+.header{
+    background-image: -webkit-linear-gradient(60deg,  #7016b5, #d834eb );
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.fas.fa-angle-left.back{
+    margin-left:20px;
+}
+.profile-pic{
+    width:30px;
+    height: 30px;
+    border:2px solid white;
+    border-radius: 75%;
+    margin-top: 25px;
+    margin-left: 10px;
+    transform: translate(0%,20%);    
+}
+.head-name{
+    color: #fff;
+    font-size: 14px;
+    
+    display: inline;
+}
+.profile-name{
+    display: inline-block;
+    transform: translateY(-15px);
+    margin-left:10px ;
+    margin-top: -10px;
+}
+.head-sub-name{
+    font-size: 9px;
+    color: #fff;
+    display: inline-block;
+    transform: translate(-85px,0px);
+    margin-bottom: 15px;
+}
+.fas.fa-ellipsis-v.nav{
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    transform: translate(10px,-10px);
+}
+.chat{
+    /* float: left; */
+    margin-left: 5px;
+    width: 200px;
+    background-color: #dbc2ed;
+    padding: 5px;
+    font-size: 13px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.chat-receive{
+    /* float: right; */
+    width: 180px;
+    font-size: 13px;
+    margin-left:62px;
+    padding: 5px;
+    padding-left: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #fff;
+}
+.show-pic{
+    width:40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.point{
+    color: rgba(212, 212, 209, 0.623);
+}
+.chat-time{
+    font-size: 13px;
+    width: 200px;
+    padding: 8px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: -webkit-linear-gradient(45deg, #d834eb, #7016b5 );
+}
+.chat-time-text{
+    padding-left: 8px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.644);
+}
+.chat-money{
+    color: white;
+    font-weight: 600;
+}
+.chat-money.one{
+    margin-left: 70px;
+}
+.chat-money.two{
+    margin-left: 85px;
+}
+.writemsg{
+    margin:5px;
+    padding: 8px;
+    border-radius: 100px;
+    background-color: #fff;
+    font-size: 12px;
+    color: rgba(163, 162, 162, 0.76);
+}
+.right{
+    color: rgb(69, 12, 92);
+    font-size: 20px;
+    margin-left:90px;
+}
+.main{
+    width: 30%;
+    left: 50%;
+    position: relative;
+    transform: translateY(-300px);
+}
+
+.main-pera{
+    font-size: 18px;
+}
+@media(max-width:1024px){
+    .main{
+        width: 90%;
+        left: 20px;
+        display:inline-block;
+        transform: translateY(0px);
+
+    }
+    .main-head{
+        font-size: 40px;
+    }
+    .main-pera{
+        font-size: 22px;
+    }
+}
+.attribution{
+    position: relative;
+    /* display: inline-block; */
+    text-align: center;
+    transform: translateY(-50px);
+}
+@media(max-width:1024px){
+    .attribution{
+        text-align: center;
+        transform: translateY(60px);
+    }
+}
