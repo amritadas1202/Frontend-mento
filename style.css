@@ -111,7 +111,7 @@ body{
     transform: translate(-85px,0px);
     margin-bottom: 15px;
 }
-@meida(max-width: 355){
+@meida(max-width: 355px){
     .head-sub-name{
     font-size: 9px;
     color: #fff;
