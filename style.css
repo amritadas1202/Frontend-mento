@@ -111,6 +111,15 @@ body{
     transform: translate(-85px,0px);
     margin-bottom: 15px;
 }
+@meida(max-width: 355){
+    .head-sub-name{
+    font-size: 9px;
+    color: #fff;
+    display: inline-block;
+    transform: translate(0px,0px);
+    margin-bottom: 15px;
+}
+}
 .fas.fa-ellipsis-v.nav{
     color: #fff;
     display: inline-block;
